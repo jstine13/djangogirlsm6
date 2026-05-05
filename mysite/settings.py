@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-kxkrk!b@n7m#)1t=h!+f%l@ig3b+1dg&u#my@q)z*qm%1goq6p
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'jstine13.pythonanywhere.com']
+ALLOWED_HOSTS = ["localhost", "127.0.0.1", "jstine13.pythonanywhere.com"]
 
 
 # Application definition
@@ -116,9 +116,11 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.2/howto/static-files/
 
 STATIC_URL = "static/"
-STATIC_ROOT = BASE_DIR / 'static'
+STATIC_ROOT = BASE_DIR / "static"
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+LOGIN_REDIRECT_URL = "/"
