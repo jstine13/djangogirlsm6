@@ -81,3 +81,32 @@ small a:visited {
   color: #ffffff;
   text-decoration: none;
 }
+
+.comment {
+  margin: 20px 0px 20px 20px;
+}
+/*make logout button look consistent */
+.logout-button {
+  background: none;
+  border: none;
+  color: #ffffff;
+  font-size: 15pt;
+  text-decoration: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.actions form {
+  display: inline;
+}
+
+.comments-link,
+.comments-link:visited {
+  color: #000000;
+  font-size: 12pt;
+}
+
+.draft-title a,
+.draft-title a:visited {
+  color: #000000;
+}
